@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/glider.min.css">
+    <link rel="stylesheet" type="text/css" href="glider.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <!--header-->
+
+    <!--content-->
+
+    <!--glider-->
+    <div class="glider-contain">
+        <div class="glider">
+          <div>your content here</div>
+          <div>your content here</div>
+          <div>your content here</div>
+          <div>your content here</div>
+        </div>
+      
+        <button aria-label="Previous" class="glider-prev">«</button>
+        <button aria-label="Next" class="glider-next">»</button>
+        <div id="dots" class="glider-dots"></div>
+    </div>
+    
+    <script src="glider.js"></script>
+    <script src="assets/js/glider.min.js"></script>
+    <script>
+
+        new Glider(document.querySelector('.glider'), {
+        slidesToShow: 1,
+        dots: '#dots',
+        draggable: true,
+        arrows: {
+            prev: '.glider-prev',
+            next: '.glider-next'
+        }
+        });       
+
+    </script>
+</body>
+</html>
