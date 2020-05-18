@@ -25,10 +25,18 @@ a {
     text-decoration: none;
     color: white;
 }
+.content-container {
+    background-color: white !important;
+    background-image: url(https://res.cloudinary.com/start-ng/image/upload/v1589770674/christopher-gower-m_HRfLhgABo-unsplash_k2ytb5.jpg);
+    background-repeat: no-repeat;
+    background-size: 1500px;
+    padding: 0 0 0 32px !important;
+    padding-bottom: 32px !important;
+}
 
 
 body {
-    background-color: purple!important;
+    background-color: black!important;
     font-family: 'Montserrat', sans-serif;;
 }
 
@@ -69,23 +77,12 @@ body {
 
 
 /*masterhead*/
-.masterhead-container {
-    border-radius: 4px;
-    background-color: whitesmoke;
-    padding: 16px 8px;
-    margin: 64px 8px;
-}
-.master-avater {
-    padding: 4em 1em;
-    text-align: center;
-}
-.avater {
-    width: 200px;
-    border-radius: 8px;
-}
+
 .about {
     text-align: center;
+    padding: 16px 192px;
 }
+
 
 /*slides bg*/
 .bg-1 {
@@ -104,15 +101,17 @@ body {
 /*glider*/
 .slides {
     text-align: center;
-    margin: 1em 5em;
-    padding: 16px 0;
+    margin: 16px 32px;
     color: white;
     text-transform: uppercase;
+    border: 1px white;
+    border-radius: 4px;
+    padding: 16px 0;
 }
 .glider-contain {
     width: 85% !important;
-    margin-top: 12%;
-    margin-bottom: 5%;
+    margin-top: 12% !important;
+    margin-bottom: 5% !important;
 }
 .glider-prev {
 }
@@ -125,6 +124,8 @@ body {
 
 }
 
-.progess-bar {
-    width: 60% !important;
+
+footer {
+    margin-top: 32px;
+    color: white;
 }
