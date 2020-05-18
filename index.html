@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="assets/css/glider.min.css">
     <link rel="stylesheet" type="text/css" href="glider.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <title>Document</title>
 </head>
@@ -16,27 +17,37 @@
         <!--header-->
         <header class="header">
             <div class="samuria">
-                <span></span>
+                <span class="logo"><img src="" alt=""></span>
                 <h2 class="samuria-text">Designed by <a href="" class="samuria-btn">Samuria dev</a></h2>
             </div>
             <h2 class="title-text">my100daysofcode</h2>
-            <p class="ti">I've joined the #100DaysOfCode Challenge</p>
-            <p>Rules of the 100 Days Of Code Challenge <br>
-            I will code for at least an hour every day for the next 100 days.*
-            </p>
-            <p>Start Date; Saturday, 16 May 2020</p>
+            <p class="title-subtext">I've joined the #100DaysOfCode Challenge <br>
+            Rules of the 100 Days Of Code Challenge <br>
+            I will code for at least an hour every day for the next 100 days. <br>
+            Start Date; Saturday, 16 May 2020</p>
+            <button class="git-btn">
+                <a href="http://" target="_blank" rel="noopener noreferrer">Veiw Github <i class="fa fa-github    "></i></a>
+            </button>
         </header>
 
         <!--content-->
-        <div class="container">
+        <div class="masterhead-container">
             <!--Masterhead-->
             <section>
                 <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-6">
-                            <img src="" alt="">
+                    <div class="row Masterhead">
+                        <div class="col-lg-4
+                        col-xl-4 master-avater">
+                            <img src="/assets/images/IMG_0095.jpg" alt="" class="avater">
                         </div>
-                        <div class="col-8">
+                        <div class="col-lg-8
+                        col-xl-8 about">
+                            <div>
+                                <h3>About</h3>
+                                <span class="about line"></span>
+                                <span><i class="fa fa-star" aria-hidden="true"></i></span>
+                                <span class="about-line"></span>
+                            </div>
 
                         </div>
                     </div>
@@ -45,10 +56,21 @@
             <!--glider-->
             <div class="glider-contain">
                 <div class="glider">
-                <div>your content here</div>
-                <div>your content here</div>
-                <div>your content here</div>
-                <div>your content here</div>
+                    <div class="slides bg-1">
+                        <h2 class="days">Day 1</h2>
+                        <p class="pjt-text">project</p>
+                        <p class="slides-text">progress <br> <br>language; HTML<i class="fa fa-html5" aria-hidden="true"></i>  CSS<i class="fa fa-css3" aria-hidden="true"></i></p>
+                    </div>
+                    <div class="slides bg-2">
+                        <h2 class="days">Day 2</h2>
+                        <p class="pjt-text">project</p>
+                        <p class="slides-text">duration <br>language; HTML<i class="fa fa-html5" aria-hidden="true"></i>  CSS<i class="fa fa-css3" aria-hidden="true"></i></p>
+                    </div>
+                    <div class="slides">
+                        <h2 class="days">Day 1</h2>
+                        <p class="pjt-text">project</p>
+                        <p class="slides-text">duration <br>language; HTML<i class="fa fa-html5" aria-hidden="true"></i>  CSS<i class="fa fa-css3" aria-hidden="true"></i></p>
+                    </div>
                 </div>
             
                 <button aria-label="Previous" class="glider-prev">«</button>
@@ -63,7 +85,8 @@
     <script>
 
         new Glider(document.querySelector('.glider'), {
-        slidesToShow: 1,
+        slidesToShow: 1.5,
+        slidesToScroll: 1,
         dots: '#dots',
         draggable: true,
         arrows: {

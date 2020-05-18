@@ -1,6 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
 @import "https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400";
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Montserrat:wght@300;400&display=swap');
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -20,62 +21,14 @@ section, summary, time, mark, audio, video {
   font: inherit;
   vertical-align: baseline;
 }
-p {
-    margin: 0 0 2em 0;
-  }
-
-    p.content {
-      -moz-columns: 20em 2;
-      -webkit-columns: 20em 2;
-      -ms-columns: 20em 2;
-      columns: 20em 2;
-      -moz-column-gap: 2em;
-      -webkit-column-gap: 2em;
-      -ms-column-gap: 2em;
-      column-gap: 2em;
-      text-align: justify;
-    }
-
-  h1, h2, h3, h4, h5, h6 {
-    font-weight: 300;
-    line-height: 1.5;
-    margin: 0 0 0.7em 0;
-    letter-spacing: -0.025em;
-  }
-
-    h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-      color: inherit;
-      text-decoration: none;
-    }
-
-  h1 {
-    font-size: 2.5em;
-    line-height: 1.2;
-  }
-
-  h2 {
-    font-size: 1.5em;
-  }
-
-  h3 {
-    font-size: 1.25em;
-  }
-
-  h4 {
-    font-size: 1.1em;
-  }
-
-  h5 {
-    font-size: 0.9em;
-  }
-
-  h6 {
-    font-size: 0.7em;
-  }
+a {
+    text-decoration: none;
+    color: white;
+}
 
 
 body {
-    background-color: goldenrod!important;
+    background-color: purple!important;
     font-family: 'Montserrat', sans-serif;;
 }
 
@@ -84,14 +37,94 @@ body {
     text-align: center;
     font-family: "Source Sans Pro", Helvetica, sans-serif;
     margin: 16px auto;
+    color: white;
+    margin-top: 5em;
+}
+.samuria-text {
+    font-weight: 300;
+    font-size: 16px;
+}
+.title-text {
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-family: 'Monoton', cursive;
+    margin-top: 32px;
+}
+.title-subtext {
+    font-weight: 300;
+    font-size: 16px;
+    margin-top: 8px;
+}
+.git-btn {
+    background-color: white!important;
+    color: white!important;
+    text-decoration: none!important;
+    cursor: pointer;
+    padding: 4px auto;
+    border: 1px;
+    border-radius: 8px;
+    font-size: 16px;
 }
 
-/*header*/
-.container {
-    margin-top: 3em;
-    border: 1px solid black;
-    border-radius: 16px;
+
+/*masterhead*/
+.masterhead-container {
+    border-radius: 4px;
     background-color: whitesmoke;
     padding: 16px 8px;
+    margin: 64px 8px;
+}
+.master-avater {
+    padding: 4em 1em;
+    text-align: center;
+}
+.avater {
+    width: 200px;
+    border-radius: 8px;
+}
+.about {
+    text-align: center;
 }
 
+/*slides bg*/
+.bg-1 {
+    background-image: url(https://res.cloudinary.com/start-ng/image/upload/v1589764178/a12666eea6b9c6d9f0d12a84362ac633-700_bhze5i.jpg);
+    background-size: 720px;
+    background-position: 60%;
+    background-repeat: no-repeat;
+}
+.bg-2 {
+    background-image: url(https://res.cloudinary.com/start-ng/image/upload/v1589764604/photo-1517694712202-14dd9538aa97_h86zqi.jpg);
+    background-size: 720px;
+    background-position: 60% 40%;
+    background-repeat: no-repeat;
+}
+
+/*glider*/
+.slides {
+    text-align: center;
+    margin: 1em 5em;
+    padding: 16px 0;
+    color: white;
+    text-transform: uppercase;
+}
+.glider-contain {
+    width: 85% !important;
+    margin-top: 12%;
+    margin-bottom: 5%;
+}
+.glider-prev {
+}
+.days {
+    font-family: ;
+    font-weight: ;
+}
+.pjt-text {
+    font-size: 16px;
+
+}
+
+.progess-bar {
+    width: 60% !important;
+}
