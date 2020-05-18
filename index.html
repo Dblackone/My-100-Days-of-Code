@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    <title>Document</title>
+    <script src="https://kit.fontawesome.com/2823fb7a5a.js" crossorigin="anonymous"></script>
+    <title>My-100-Days-of-Code</title>
 </head>
 <body>
     <!--wrapper-->
@@ -18,7 +19,7 @@
         <header class="header">
             <div class="samuria">
                 <span class="logo"><img src="" alt=""></span>
-                <h2 class="samuria-text">Designed by <a href="" class="samuria-btn">Samuria dev</a></h2>
+                <h2 class=" samuria-text">Designed by <a href="" class="samuria-btn btn">Samuria dev</a></h2>
             </div>
             <h2 class="title-text">my100daysofcode</h2>
             <p class="title-subtext">I've joined the #100DaysOfCode Challenge <br>
@@ -43,22 +44,32 @@
                     <div class="slides bg-1">
                         <h2 class="days">Day 1</h2>
                         <p class="pjt-text">project; <span class="">my100daysofcode</span></p>
-                        <p class="slides-text">progress <br> <br>language; HTML<i class="fa fa-html5" aria-hidden="true"></i>  CSS<i class="fa fa-css3" aria-hidden="true"></i></p>
+                        <p class="slides-text">language; HTML<i class="fa fa-html5" aria-hidden="true"></i>  CSS<i class="fa fa-css3" aria-hidden="true"></i></p>
                         <p>link to work; <a href="https://dblackone.github.io/My-100-Days-of-Code/"><span class="">my100daysofcode</span></a></p>
+                        <div class="progress">
+                            <div class="progress-bar bg-primary" role="progressbar" style="width: 25%;"
+                                aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">progress</div>
+                        </div>
                         <button class="git-btn">
                             <a href="https://github.com/Dblackone/My-100-Days-of-Code" target="_blank" rel="noopener noreferrer">Veiw Github <i class="fa fa-github    "></i></a>
                         </button>
                     </div>
-                    <div class="slides bg-2">
-                        <h2 class="days">Day 2</h2>
-                        <p class="pjt-text">project</p>
-                        <p class="slides-text">duration <br>language; HTML<i class="fa fa-html5" aria-hidden="true"></i>  CSS<i class="fa fa-css3" aria-hidden="true"></i></p>
+
+                    <div class="slides bg-1">
+                        <h2 class="days">Day 2
+                        </h2>
+                        <p class="pjt-text">project; <span class="">my100daysofcode</span></p>
+                        <p class="slides-text">language; HTML<i class="fa fa-html5" aria-hidden="true"></i>  CSS<i class="fa fa-css3" aria-hidden="true"></i></p>
+                        <p>link to work; <a href="https://dblackone.github.io/My-100-Days-of-Code/"><span class="">my100daysofcode</span></a></p>
+                        <div class="progress">
+                            <div class="progress-bar bg-primary" role="progressbar" style="width: 82%;"
+                                aria-valuenow="82" aria-valuemin="0" aria-valuemax="100">progress</div>
+                        </div>
+                        <button class="git-btn">
+                            <a href="https://github.com/Dblackone/My-100-Days-of-Code" target="_blank" rel="noopener noreferrer">Veiw Github <i class="fa fa-github    "></i></a>
+                        </button>
                     </div>
-                    <div class="slides">
-                        <h2 class="days">Day 1</h2>
-                        <p class="pjt-text">project</p>
-                        <p class="slides-text">duration <br>language; HTML<i class="fa fa-html5" aria-hidden="true"></i>  CSS<i class="fa fa-css3" aria-hidden="true"></i></p>
-                    </div>
+                    
                 </div>
             
                 <button aria-label="Previous" class="glider-prev">«</button>
@@ -75,13 +86,13 @@
                 <!-- Footer Social Icons-->
                 <div class="col-lg-6 mb-5 mb-lg-0">
                     <h4 class="text-uppercase mb-4">Social Tags</h4>
-                    <a class="btn btn-outline-light btn-social mx-1" href="#"><i class="fab fa-fw fa-twitter"></i></a>
-                    <a class="btn btn-outline-light btn-social mx-1" href="#"><i class="fab fa-fw fa-instagram"></i></a>
+                    <a class="btn btn-outline-dark btn-social mx-1" href="https://twitter.com/d_black_one"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-outline-dark btn-social mx-1" href="https://www.instagram.com/dblack_one/"><i class="fab fa-fw fa-instagram"></i></a>
                 </div>
                 <!-- Footer About Text-->
                 <div class="col-lg-6">
                     <h4 class="text-uppercase mb-4">About Devloper</h4>
-                    <p class="lead mb-0">This portfolio is created by <a href="">Samuria Devloper</a>.</p>
+                    <p class="lead mb-0">This portfolio is created by <a href="" class="btn">Samuria Devloper</a>.</p>
                 </div>
             </div>
         </div>
@@ -103,7 +114,29 @@
         arrows: {
             prev: '.glider-prev',
             next: '.glider-next'
-        }
+        },
+        responsive: [
+            {
+            // screens greater than >= 775px
+            breakpoint: 320,
+            settings: {
+                // Set to `auto` and provide item width to adjust to viewport
+                slidesToShow: '1',
+                slidesToScroll: '1',
+                itemWidth: 150,
+                duration: .75
+            }
+            },{
+            // screens greater than >= 1024px
+            breakpoint: 425,
+            settings: {
+                slidesToShow: 1.5,
+                slidesToScroll: 1,
+                itemWidth: 150,
+                duration: 0.25
+            }
+            }
+        ]
         });       
 
     </script>

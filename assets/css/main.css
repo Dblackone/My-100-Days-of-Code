@@ -25,6 +25,13 @@ a {
     text-decoration: none;
     color: white;
 }
+.fa {
+    font-size: large;
+}
+.btn {
+    color: whitesmoke !important;
+    font-family: 'Montserrat', sans-serif !important;
+}
 .content-container {
     background-color: white !important;
     background-image: url(https://res.cloudinary.com/start-ng/image/upload/v1589770674/christopher-gower-m_HRfLhgABo-unsplash_k2ytb5.jpg);
@@ -37,7 +44,7 @@ a {
 
 body {
     background-color: black!important;
-    font-family: 'Montserrat', sans-serif;;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /*header*/
@@ -128,4 +135,57 @@ body {
 footer {
     margin-top: 32px;
     color: white;
+    font-family: 'Montserrat', sans-serif !important;
+}
+.border {
+    border:1px solid #ccc!important;
+}
+.purple {
+    color:purple!important;
+}
+.progress {
+    height: 24px !important;
+    margin: 8px 16px !important;
+    border-radius: 8px !important;
+}
+.bg-primary {
+    background-color: cornflowerblue!important;
+}
+
+@media (max-width: 425px) {
+    .content-container {
+        background-color: white !important;
+        background-image: url(https://res.cloudinary.com/start-ng/image/upload/v1589770674/christopher-gower-m_HRfLhgABo-unsplash_k2ytb5.jpg);
+        background-repeat: no-repeat;
+        background-size: 1500px;
+        padding: 0 0 0 32px !important;
+        padding-bottom: 32px !important;
+    }
+    .about {
+        text-align: center;
+        padding: 16px 8px;
+    }
+    /*glider*/
+    .slides {
+        text-align: center;
+        margin: 8px 8px;
+        color: white;
+        text-transform: uppercase;
+        border: 1px white;
+        border-radius: 4px;
+        padding: 16px 0;
+    }
+    .glider-contain {
+        width: 90% !important;
+        margin-top: 12% !important;
+        margin-bottom: 5% !important;
+    }
+    .progress {
+        height: 16px !important;
+        margin: 8px 16px !important;
+        border-radius: 8px !important;
+    }
+    .glider-next {
+        l
+    }
 }
